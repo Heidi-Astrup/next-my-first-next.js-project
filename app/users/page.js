@@ -26,21 +26,6 @@ export default async function Users() {
                 </li>
               );
             })}
-            <li>
-              <Link href="/users/Hans">Hans Hansen</Link>
-            </li>
-            <li>
-              <Link href="/posts/Jens">Jens Jensen</Link>
-            </li>
-            <li>
-              <Link href="/posts/Mads">Mads Madsen</Link>
-            </li>
-            <li>
-              <Link href="/posts/Marie">Marie Ingridsen</Link>
-            </li>
-            <li>
-              <Link href="/posts/Richard">Richard Risum</Link>
-            </li>
           </ol>
         </section>
       </main>
