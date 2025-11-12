@@ -24,9 +24,13 @@
   max-width: 800px;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
   background-color: var(--foreground);
   padding: 120px 60px;
+}
+
+.liste {
+  padding: 0 1rem 0;
 }
 
 .intro {
