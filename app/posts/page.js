@@ -21,7 +21,7 @@ export default async function Posts() {
             {posts.map((post) => {
               return (
                 <li key={posts.id}>
-                  <Link href={`/posts/{$post.id}`}>{post.caption}</Link>
+                  <Link href={`/posts/${post.id}`}>{post.caption}</Link>
                 </li>
               );
             })}
