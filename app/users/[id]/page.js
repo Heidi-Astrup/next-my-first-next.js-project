@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "../../page.module.css";
 
 export default async function UserDetail({ params }) {
@@ -14,8 +15,15 @@ export default async function UserDetail({ params }) {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1>User detail page for user nr. {id}</h1>
-        <p>{user.name}</p>
+        <h1>{user.name}</h1>
+        <p>{user.mail}</p>
+        <Image
+          src={user.image}
+          alt={user.name}
+          width={300}
+          height={300}
+          className="post-image"
+        ></Image>
       </main>
     </div>
   );
