@@ -16,6 +16,12 @@ export default function Navbar() {
       <Link href="/users" className={pathName === "/users" ? "active" : ""}>
         Users
       </Link>
+      <Link
+        href="/posts/create"
+        className={pathName === "/posts/create" ? "active" : ""}
+      >
+        Create Post
+      </Link>
     </nav>
   );
 }
